@@ -7,11 +7,6 @@
 
 
     <fragment
-        android:id="@+id/loginFragment"
-        android:name="com.example.midterm.loginFragment"
-        android:label="fragment_login"
-        tools:layout="@layout/fragment_login2" />
-    <fragment
         android:id="@+id/registerFragment"
         android:name="com.example.midterm.registerFragment"
         android:label="fragment_register"
@@ -21,4 +16,9 @@
         android:name="com.example.midterm.dashboardFragment"
         android:label="fragment_dashboard"
         tools:layout="@layout/fragment_dashboard" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.midterm.loginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" />
 </navigation>
